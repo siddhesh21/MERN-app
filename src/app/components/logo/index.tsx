@@ -13,16 +13,15 @@ const LogoContainer = styled.div`
 
 const LogoText = styled.div`
   ${tw`
-    text-xl
-    md:text-2xl
-    font-bold
-    text-black    
+    text-lg
+    md:text-xl
+    text-black
     `};
 `;
 
 const Image = styled.div`
   width: auto;
-  ${tw`h-6 md:h-9`};
+  ${tw`h-10 md:h-14`};
 
   img {
     width: auto;
@@ -36,7 +35,7 @@ export function Logo() {
       <Image>
         <img src={CarLogoImg} alt="" />
       </Image>
-      <LogoText>Your Car.</LogoText>
+      <LogoText>E~Car</LogoText>
     </LogoContainer>
   );
 }
